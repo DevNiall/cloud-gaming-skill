@@ -1,0 +1,37 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ec2 launcher",
+            "intents": [
+                {
+                    "name": "LaunchEC2InstanceIntent",
+                    "slots": [
+                        {
+                            "name": "InstanceType",
+                            "type": "AMAZON.EC2InstanceType"
+                        }
+                    ],
+                    "samples": [
+                        "launch type {InstanceType}",
+                        "launch a {InstanceType}",
+                        "start a {InstanceType}",
+                        "fire up a {InstanceType}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
