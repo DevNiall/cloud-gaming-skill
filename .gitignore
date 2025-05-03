@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env/
+
+# Local development settings
+.env
+.vscode/
+*.swp
+*.swo
+
+# AWS SAM & Serverless framework
+.aws-sam/
+.serverless/
+packaged.yaml
+
+# Logs
+logs/
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Alexa Skill specific
+.ask/
+skill.json
+ask-resources.json
+
+# Deployment packages
+*.zip
